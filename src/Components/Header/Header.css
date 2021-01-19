@@ -1,0 +1,62 @@
+.navbar{
+    display:flex;
+
+}
+.navbar-brand{
+    flex-wrap:wrap;
+    flex-basis:25%;
+}
+.navbar-brand img{
+    height:50px;
+
+}
+.navbar-nav{
+    flex-wrap:wrap;
+    flex-basis:55%;
+    justify-content: flex-end;
+
+}
+ .nav-link {
+    padding-right: 2.5rem !important;
+    color:#000 !important;
+}
+.container-btn{
+    flex-wrap:wrap;
+    flex-basis:20%;
+    margin-left:auto;
+}
+.container-btn button{
+    padding:5px 20px;
+    margin:2px;
+
+}
+.header-container h1{
+    text-align:center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.form-inline{
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    border-right: none !important;
+    width: 40%;
+    background: #FBFBFB;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 5px;
+  
+
+}
+.form-control{
+    border: none !important;
+    width: 83% !important;
+
+}
+.header-btn{
+    margin-top: -1px;
+    padding: 5px 13px;
+
+}

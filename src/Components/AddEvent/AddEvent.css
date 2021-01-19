@@ -1,0 +1,110 @@
+.admin-form{
+    background-color:#E5E5E5;
+    height: 492px;
+}
+form{
+    background-color: #fff;
+    width: 90%;
+    height: 298px;
+    position: relative;
+    top: 40px;
+    left: 28px;
+    border: none;
+    border-radius: 15px;
+    padding: 25px;
+    
+   
+
+}
+label{
+    display:block !important;
+    
+}
+input{
+    width: 378px;
+    border: 1px solid lightgray;
+}
+.form-icon{
+    position: relative;
+    top: -28px;
+    left: 357px;
+    cursor: pointer;
+}
+.react-datepicker{
+    position: relative;
+    top: -3px;
+    left: 122px;
+}
+.form-title{
+    flex-basis:49%;
+
+}
+.form-date{
+    flex-basis:41%;
+    width: 402px;
+
+}
+.form-description{
+    flex-basis:47%;
+
+}
+
+.form-banner{
+    flex-basis:47%;
+    padding-bottom: 78px;
+    text-overflow: clip;
+    margin-left: 26px;
+    
+
+
+
+}
+.form-banner-img{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #06c0f2;
+    height: 40px;
+    width: 164px;
+    justify-content: center;
+    padding-top: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.form-img{
+    height:25px;
+    height: 25px;
+    padding-right: 4px;
+}
+.form-p{
+    color: #06c0f2
+
+}
+#description{
+    width: 383px;
+    height: 117px;
+    border: 1px solid lightgray;
+}
+.form-btn{
+    width: 80px;
+    display: block;
+    margin-left: 785px;
+    margin-top: 52px;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    cursor: pointer;
+    color: #fff;
+}
+.form-btn:focus{
+    outline: none;
+}
+.main-form{
+    display:flex;
+    flex-wrap:wrap;
+}
+::placeholder{
+    color:lightgray;
+}

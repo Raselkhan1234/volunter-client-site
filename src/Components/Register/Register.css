@@ -1,0 +1,68 @@
+.register-container{
+    background-color:#E5E5E5;
+    height: 575px;
+
+}
+.register-img{
+    display:block;
+    height:70px;
+    margin:auto;
+    padding-top:25px;
+
+}
+.register-form{
+    display: block;
+    margin: auto;
+    width: 570px;
+    height: 435px;
+    background: #FFFFFF;
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top:15px;
+    padding:25px 25px;
+
+
+}
+.register-form input{
+    width:100%;
+    border:none;
+    border-bottom:1px solid gray;
+    margin:15px 0;
+
+}
+.register-form input:focus{
+    
+    outline:none;
+    border-bottom:1px solid red
+}
+::placeholder{
+    color:#000;
+}
+.register-h2{
+
+}
+.error{
+    color:red;
+}
+#submit{
+    color:#fff;
+    background-color:#3F90FC;
+    height:40px;
+}
+
+.react-datepicker{
+    position: absolute;
+    top: 297px;
+    left: 485px;
+
+}
+.react-datepicker__input-container{
+    width:518px !important;
+}
+#icon{
+    position: absolute;
+    top: 293px;
+    left: 865px;
+    cursor: pointer;
+}

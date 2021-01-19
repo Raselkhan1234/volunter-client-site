@@ -1,0 +1,64 @@
+.logo-container{
+    background-color:#E5E5E5;
+    height:578px;
+
+}
+.logo-img {
+    display:block;
+    height:70px;
+    margin:auto;
+    padding-top:25px;
+
+}
+.login{
+    display: block;
+    margin: auto;
+    width: 570px;
+    height: 350px;
+    background: #FFFFFF;
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top:15px;
+    padding:105px 30px;
+
+}
+.login h2{
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom:20px;
+
+}
+.logo-btn{
+        width: 100%;
+        height: 50px;
+        background: #FFFFFF;
+        border: 1px solid #C7C7C7;
+        box-sizing: border-box;
+        border-radius: 57px;
+}
+
+.logo-btn:focus{
+    outline: none;
+}
+.logo-btn img{
+    position: absolute;
+    width: 31px;
+    height: 31.74px;
+    left: 394px;
+    top: 249px;
+}
+
+.logo-p{
+    text-align:center;
+    margin-top:10px;
+
+}
+#logo{
+    text-decoration: underline;
+    color:#3F90FC;
+    cursor:pointer;
+
+}

@@ -1,0 +1,113 @@
+const fakeData = [
+  {
+    id: "1",
+    image: "https://m.iphoto.net/HahC.png",
+    p: "Child Support",
+    color: "#FFBD3E",
+  },
+  {
+    id: "2",
+    image: "https://m.iphoto.net/YS0c.png",
+    p: "Refuge shelter",
+    color: "#FF7044",
+  },
+  {
+    id: "3",
+    image: "https://m.iphoto.net/HJDL.png",
+    p: "Food Charity",
+    color: "#3F90FC",
+  },
+  {
+    id: "4",
+    image: "https://m.iphoto.net/Hd9v.png",
+    p: "Host a clothing swap.",
+    color: "#421FCF",
+  },
+  {
+    id: "5",
+    image: "https://m.iphoto.net/Ylwh.png",
+    p: "Host a river clean-up.",
+    color: " #3F90FC",
+  },
+  {
+    id: "6",
+    image: "https://m.iphoto.net/Hbpa.png",
+    p: "Clean water for children",
+    color: " #421FCF",
+  },
+  { id: "7", image: "https://m.iphoto.net/HP0l.png", p: "Good education",color: "#FFBD3E",},
+  {
+    id: "8",
+    image: "https://m.iphoto.net/YADM.png",
+    p: "New books for children",
+    color: "  #FF7044",
+  },
+  { id: "9", image: "https://m.iphoto.net/YvOt.png", p: "Host a study group.",color: "#FFBD3E", },
+  {
+    id: "10",
+    image: "https://m.iphoto.net/HjYA.png",
+    p: "Build birdhouses for your neighbors.",
+    color: "#3F90FC",
+  },
+  {
+    id: "11",
+    image: "https://m.iphoto.net/Hko8.png",
+    p: "Organize books at the library.",
+    color: " #FF7044",
+  },
+  {
+    id: "12",
+    image: "https://m.iphoto.net/HwMd.png",
+    p: "Give a seminar on driving safety.",
+    color: "#421FCF",
+  },
+  {
+    id: "13",
+    image: "https://m.iphoto.net/Y2N6.png",
+    p: "Give free music lessons.",
+    color: " #421FCF",
+  },
+  {
+    id: "14",
+    image: "https://m.iphoto.net/YD8Z.png",
+    p: "Teach people how to register to vote.",
+    color: "#FFBD3E",
+  },
+  {
+    id: "15",
+    image: "https://m.iphoto.net/HOWj.png",
+    p: "Clean up your local park.",
+    color: "#3F90FC",
+  },
+  {
+    id: "16",
+    image: "https://m.iphoto.net/HrdT.png",
+    p: "Give IT help to local adults",
+    color: "  #FF7044",
+  },
+  {
+    id: "17",
+    image: "https://m.iphoto.net/HcCZ.png",
+    p: "Foster a shelter animal.",
+    color: "#FFBD3E",
+  },
+  {
+    id: "18",
+    image: "https://m.iphoto.net/79QK.png",
+    p: "Babysit during PTA meetings.",
+    color: "#3F90FC",
+  },
+  {
+    id: "19",
+    image: "https://m.iphoto.net/Y1ox.png",
+    p: "Collect stuffed animals.",
+    color: " #FF7044",
+  },
+  {
+    id: "20",
+    image: "https://m.iphoto.net/Yts3.png",
+    p: "Collect school supplies.",
+    color: "#421FCF",
+  },
+];
+export default fakeData;

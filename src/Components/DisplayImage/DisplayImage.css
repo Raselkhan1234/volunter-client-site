@@ -1,0 +1,29 @@
+.display-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1140px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.card{
+    border:none !important;
+    margin-bottom:25px;
+}
+.card-img{
+    border:none;
+    height:250px;
+
+
+}
+.card-text{
+    color: #fff;
+
+    text-align: center;
+    width: 255px;
+    height: 30px;
+    margin-left: -20px;
+    margin-top: 200px;
+    border-bottom-left-radius: calc(.25rem - 1px);
+    border-bottom-right-radius: calc(.25rem - 1px);
+}

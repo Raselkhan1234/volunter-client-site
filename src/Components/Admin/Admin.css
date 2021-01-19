@@ -1,0 +1,120 @@
+.admin-container{
+    padding:20px 40px;
+}
+.img-1{
+    height:40px;
+    margin-bottom:30px;
+
+}
+.admin-p{
+    font-size:14px;
+    color:#207FEE;
+    margin-bottom: -14px;
+
+}
+.img-2{
+    height:20px;
+
+}
+
+.img-3{
+    height:20px;
+
+}
+h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.admin{
+    background-color: #E5E5E5;
+}
+.table {
+    display: inline-block;
+    color: #212529;
+    background-color: #fff;
+    margin: 26px 60px 60px 20px;
+    width: 879px !important;
+    padding: -24px 30px;
+    height: 500px;
+    padding: 20px 10px;
+
+}
+.table thead {
+    display: block;
+    background: rgb(245, 246, 250);
+    border-radius: 13px;
+    height: 30px;
+
+}
+.table thead th{
+    border-bottom:none !important;
+    
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+
+}
+.table td, .table th {
+    border:none;
+    border-top:none !important;
+    vertical-align: none;
+    padding: 3.5px 31px !important;
+
+}
+
+.table tbody{
+    display: block;
+    height: 30px;
+
+}
+.table tbody td{
+    border-bottom:none !important;
+    
+    font-size: 15px;
+    font-weight: 400;
+
+
+}
+#ema{
+    display: inline;
+    margin-left: 54px;
+
+}
+#reg{
+    display: inline;
+    margin-left: 73px;
+
+}
+#vol{
+    
+    display: inline;
+    margin-left: -24px;
+
+
+}
+#act{
+    display: inline;
+    margin-left: 69px;
+
+}
+.admin-btn{
+    border: none;
+    display: block;
+    background-color: #fff;
+}
+.admin-btn:focus{
+    outline: none;
+}
+.img-4{
+    height: 25px;
+    border: none;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
