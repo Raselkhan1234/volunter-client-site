@@ -21,15 +21,12 @@ function App() {
           <Route path="/home">
             <Home />
           </Route>
-          <PrivateRoute path="/register">
+          <PrivateRoute path="/event/:productId">
             <Register />
           </PrivateRoute>
           <Route path="/login">
             <Login />
           </Route>
-          <PrivateRoute path="/event/:productId">
-            <Register />
-          </PrivateRoute>
           <Route path="/event">
             <Event />
           </Route>

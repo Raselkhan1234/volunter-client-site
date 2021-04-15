@@ -12,8 +12,8 @@ const DisplayImage = () => {
         <div className="display-container">
             {
                 cart.map(pd =>
-                    <Col sm={3} key={pd.id}  fluid={3}>
-                        <Link to={"/event/"+pd.id}>
+                    <Col sm={3} key={pd.p}  fluid={3}>
+                        <Link to={"/event/"+pd.p}>
                             <Card>
                                 <Card.Img src={pd.image} alt="Card image" />
                                 <Card.ImgOverlay>

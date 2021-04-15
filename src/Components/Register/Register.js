@@ -6,28 +6,30 @@ import "./Register.css";
 import _ from "lodash/fp";
 import fakeData from ".././FakeData/FakeData";
 import { UserContext } from "../../App";
-import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendar } from "@fortawesome/free-solid-svg-icons";
+
 
 const Register = () => {
   const { handleSubmit, register, watch, errors } = useForm();
 
   const { productId } = useParams();
-  const product = fakeData.find((pd) => pd.id === productId);
+  const product = fakeData.find((pd) => pd.p === productId);
+ 
+
+
+ 
 
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   console.log(loggedInUser);
 
-  //   const [startDate, setStartDate] = useState("");
+
 
   let history = useHistory();
 
   const onSubmit = (data) => {
     const newBooking = { image: product.image, ...data };
 
-    fetch("http://localhost:5000/addBooking", {
+    fetch("https://limitless-mesa-78892.herokuapp.com/addBooking", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -135,7 +137,7 @@ const Register = () => {
 
         <input
           name="organize"
-          defaultValue={product.p}
+          defaultValue={productId === ":productId" ? "" :productId}
           ref={register({ required: true })}
           placeholder="Organize books at the library."
         />

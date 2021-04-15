@@ -11,7 +11,7 @@ const Event = () => {
   console.log(loggedInUser);
 
   useEffect(() => {
-    fetch("http://localhost:5000/booking")
+    fetch("https://limitless-mesa-78892.herokuapp.com/booking")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -20,7 +20,7 @@ const Event = () => {
   }, []);
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/delete/${id}`, {
+    fetch(`https://limitless-mesa-78892.herokuapp.com/delete/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

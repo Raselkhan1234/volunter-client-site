@@ -37,7 +37,7 @@ const AddEvent = () => {
   const handleSubmit = (e) => {
     const newUser = { value, startDate };
     console.log(newUser);
-    fetch("http://localhost:5000/addBooking", {
+    fetch("https://limitless-mesa-78892.herokuapp.com/add", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -48,6 +48,7 @@ const AddEvent = () => {
       .then((data) => {
         console.log(data);
         history.push("/admin");
+        alert("success");
       });
     e.preventDefault();
   };
@@ -72,7 +73,7 @@ const AddEvent = () => {
           <h2>Add event</h2>
 
           <div className="admin-form">
-            <form>
+            <form className="admin-form-add">
               <div className="main-form">
                 <div className="form-title">
                   <label htmlFor="">Event Title</label>

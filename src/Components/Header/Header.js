@@ -18,7 +18,7 @@ const Header = () => {
                     <Nav.Link href="#blog">Blog</Nav.Link>
                 </Nav>
                 <div className="container-btn">
-                <Link to="/register"><Button  variant="primary">Register</Button></Link>
+                <Link to="/event/:productId"><Button  variant="primary">Register</Button></Link>
                 <Link to="admin"><Button variant="dark">Admin</Button></Link>
                 </div>
             </Navbar>

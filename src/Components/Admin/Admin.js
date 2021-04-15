@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Admin = () => {
   const [user, setUser] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/allUser")
+    fetch("https://limitless-mesa-78892.herokuapp.com/allUser")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -18,7 +18,7 @@ const Admin = () => {
       });
   }, []);
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/admin/delete/${id}`, {
+    fetch(`https://limitless-mesa-78892.herokuapp.com/admin/delete/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
